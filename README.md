@@ -1,40 +1,74 @@
-## OSCAR-MD-V6
+
+
+<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩5ꫂ<br></h1>
 <p align="center">
+<img src="https://media.tenor.com/images/e15cb1453a09e25bab41116d930329bf/tenor.gif" alt="animated" width="540" height="280" />
+</p>
 
-  <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=WELCOME;My+name+is+JAROT-OFFC;IKUTIN-SOSIALMEDIA+SAYA!!;JANGAN+LUPA+JOIN+GROUP%2C++Bwang+%3A);jangan+lupa+kasih+start+!" alt="budii">
-
-</p>
-<div align="center">
-  <p align="center">
-<img src="https://telegra.ph/file/c6f6d447f2c76e3795a10.jpg" alt="Img" width="128" height="128"/>
-</p>
- <p align="center">
-<a href="#"><img title="JAROT OFFC" src="https://img.shields.io/badge/JAROT%20OFFC-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-  <p align="center">
-<a href="https://wa.me/6285850539404"><img title="Author" src="https://img.shields.io/badge/Author-JAROT OFFC/JulieMwol?color=blue&style=for-the-badge&logo=whatsapp"></a>
-<a href="https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"><img title="YouTube" src="https://img.shields.io/badge/YouTube-Jarot Offc/JulieMwol?color=blue&style=for-the-badge&logo=Youtube"></a>
-<a href="https://instagram.com/Jarotr_"><img title="Instagram" src="https://img.shields.io/badge/Instagram-Jarot Offc/JulieMwol?color=blue&style=for-the-badge&logo=Instagram"></a>
-<a href="https://chat.whatsapp.com/KGuKY4wuKHS8sj6K5IHjFG"><img title="Group Jarot offc" src="https://img.shields.io/badge/Group-Jarot Offc/JulieMwol?color=blue&style=for-the-badge&logo=WhatsApp"></a>
-</p>
-</div>
 <p align="center">
-Project created by <a href="https://github.com/JarotOffc">JAROT OFFC</a> to make it public
-    <br>
-       | © |
-        Reserved |
-    <br> 
+Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
 </p>
 
-## Heroku Buildpack
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aiinne/Aine-MD)
+<p align="center">
+<a href="https://youtu.be/WiIqCdiDjFo"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
+</p>
 
-| BuildPack | LINK |
-|--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+------
 
----------
+# ```Bot Info```
+<p align="center">
+<a href="https://github.com/DGXeon/followers"><img title="Followers" src="https://img.shields.io/github/followers/DGXeon?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/DGXeon/CheemsBot-MD5?color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5/network/members"><img title="Forks" src="https://img.shields.io/github/forks/DGXeon/CheemsBot-MD5?color=red&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/DGXeon/CheemsBot-MD5?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5"><img title="Open Source" src="https://img.shields.io/badge/Author-Xeon%20Bot%20Inc.-red?v=103"></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5/"><img title="Size" src="https://img.shields.io/github/repo-size/DGXeon/CheemsBot-MD5?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDGXeon%2FCheemsBot-MD5&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/DGXeon/CheemsBot-MD5/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+    </p>
+
+-------
+
+## ```Connect With Me```
+<p align="center">
+<a href="https://wa.me/916909137213"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A"><img src="https://img.shields.io/badge/Subscribe Xeon-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/c/BOTINDO" /><br>
+</p>
+
+## ```Donate Me```
+
+- [`FamPay`](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg)
+
+<p align="left">
+Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
+</p>
+
+## ```Bot Support Groups```
+
+- [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
+- [`2nd GC`](https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5)
+- [`3rd GC`](https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd)
+
+# Setup For Deployment 👇
+
+- FORK THE REPOSITORY [Here](https://github.com/DGXeon/CheemsBot-MD5/fork)
+
+## `Scan QR Code For Session`
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
+
+ ` BUILDPACKS`
+
+```
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
+```
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DGXeon/CheemsBot-MD5/)
+
+# Install Manually 👇
 ## `Requirements`
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
@@ -43,13 +77,15 @@ Project created by <a href="https://github.com/JarotOffc">JAROT OFFC</a> to make
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/JarotOffc/oscar-md-v6.git
-cd oscar-md-v6
+git clone https://github.com/DGXeon/CheemsBot-MD5.git
+cd CheemsBot-MD5
 
 npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
 ```bash
+apt update
+apt upgrade
 pkg update && pkg upgrade
 pkg install bash
 pkg install libwebp
@@ -58,8 +94,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/JarotOffc/oscar-md-v6
-cd oscar-md-v6
+git clone https://github.com/DGXeon/CheemsBot-MD5
+cd CheemsBot-MD
 npm start
 ```
 ## `For VPS`
@@ -70,49 +106,11 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/JarotOffc/oscar-md-v6
-cd oscar-md-v6
+git clone https://github.com/DGXeon/CheemsBot-MD5
+cd CheemsBot-MD5
 npm start
 ```
 ## `For 24/7 Activation (Termux)`
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
-
-## TqTo
-
- ```bash 
-✓ Xeon
-✓ Jarot Offc
-
-```
-
-## Stats
-
-![Jarotr Offc GitHub stats](https://github-readme-stats.vercel.app/api?username=JarotOffc&show_icons=true&theme=radical)
-
-<p align="center"><a href="https://github.com/Kangsad01"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JarotOffc&theme=radical&layout=compact"></a></p>
-
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-
-
-<details>
-
-    <summary>&#127942 <b>GitHub Awards</b></summary><br/>
-
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=JarotOffc)
-
-</details>
-
-<details>
-
-    <summary>&#127942 <b>GitHub Activity</b></summary><br/>
-
-![Metrics](https://metrics.lecoq.io/Alpiii22?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2Fpasuruan)
-
-</details> 
-
-![](https://visitor-badge.glitch.me/badge?page_id=Jarotr)
-
-
----
