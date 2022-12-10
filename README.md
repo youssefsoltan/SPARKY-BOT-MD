@@ -63,3 +63,8 @@ npm start
 ```bash
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
+  
+  
+  ## Thanks To
+* [`Xeon`](https://github.com/DGXeon)
+* [`Aswin Sparky`](https://github.com/Sparkymon777)
