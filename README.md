@@ -25,7 +25,7 @@ Sparky Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 ## ```Bot Support Groups```
 
-- [`1st GC`](https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS)
+- [`1st GC`](https://chat.whatsapp.com/JTUrdnOziKD44ScoBoggmh)
 
 # Setup For Deployment 👇
 
