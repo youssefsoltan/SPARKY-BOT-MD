@@ -2579,7 +2579,7 @@ case 'tiktoknowm':
 			case 'tt':
 			    if (!text) return m.reply('𝘓𝘪𝘯𝘬 𝘕𝘺𝘢 𝘔𝘢𝘯𝘢??')
 				let p = await fdl.downloader.tiktok(q)
-				let nih = ` 𝘕𝘪𝘩 𝘒𝘢𝘬 𝘔𝘢𝘥𝘦 𝘉𝘺 ${author} 𝘑𝘢𝘯𝘨𝘢𝘯 𝘓𝘶𝘱𝘢 𝘚𝘶𝘴𝘤𝘳𝘪𝘣𝘦 https://www.youtube.com/@Jarotoffc`
+				let nih = ` 𝘔𝘢𝘥𝘦 𝘉𝘺 ${author} SUBSCRIBE https://www.youtube.com/@sparkymon777`
 				let buttons = [
                     {buttonId: `tiktokmp3 ${text}`, buttonText: {displayText: '♫ Audio'}, type: 1}
                 ]
