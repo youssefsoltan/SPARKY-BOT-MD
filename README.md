@@ -13,7 +13,7 @@ Sparky Bot Multi Device is a automated whatsapp bot created by <a href="https://
 <a href="https://youtu.be/u7mArDtlTZk"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
 </p>
 
-# Instalasi
+# Install
 
 ## FOR REPLIT USER
 
@@ -90,3 +90,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
   ## Thanks To
 * [`Xeon`](https://github.com/DGXeon)
 * [`Aswin Sparky`](https://github.com/Sparkymon777)
+
+
+## Special Thanks to
+*[`AndiMrLit`](https://github.com/andymrlit)
