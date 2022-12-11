@@ -41,7 +41,7 @@ global.author = "ASWIN" //ur sticker watermark author
 global.wm = "S P A R K Y" //ur watermark
 
 // Other
-global.sessionName = 'Session'
+global.sessionName = 'session'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
 global.mess = {
