@@ -15,7 +15,7 @@ Sparky Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 # Install
 
-## FOR REPLIT USER
+## SCAN QR FROM HERE
 
 [![Run on Repl.it](https://repl.it/badge/github/Sparkymon777/SPARKY-BOT-MD)](https://replit.com/@Sparkymon777/SPARKY-BOT-Ultra?v=output%20only=1&lite=1#index.js)
 
@@ -29,7 +29,7 @@ Sparky Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 </p>
 
-## FOR RAILWAY USER 
+## DEPLOY ON RAILWAY 
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
 
