@@ -995,24 +995,24 @@ Type *give up* to surrender and admit defeat`
             }
             break
    	case 'sc': case 'script': case 'sourcecode': {
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nJangan Lupa Suscribe`
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\n Subscribe `
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🌺'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://telegra.ph/file/e7ee72c5f6dab71ee0639.jpg`},
+image: {url: `https://i.imgur.com/iaWuQRB.jpeg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Mau Donasi? Ketik Owner",
+title:"Want to Donate? Type Owner",
 body: "Click to Suscribe", 
 thumbnail: fs.readFileSync("Media/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ',
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: 'https://youtube.com/@sparkymon777',
+sourceUrl: "https://youtube.com/@sparkymon777"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: fkontak })
@@ -1024,19 +1024,19 @@ let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://telegra.ph/file/e7ee72c5f6dab71ee0639.jpg`},
+image: {url: `https://i.imgur.com/iaWuQRB.jpeg`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Mau Donasi? Ketik Owner",
-body: "Click to donasi", 
+title:"Want to Donate? Type Owner",
+body: "Click to donate", 
 thumbnail: fs.readFileSync("Media/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ',
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: 'https://youtube.com/@sparkymon777',
+sourceUrl: "https://youtube.com/@sparkymon777"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: ftroli })
@@ -5586,8 +5586,8 @@ case 'swm': case 'stickerwm': case 'wm': case 'take': {
             let text1 = q.split("|")[0]
             let text2 = q.split("|")[1]
               if (!isQuotedSticker) return m.reply(`Reply to a sticker with caption ext|text\n\nExample: ${prefix + command} Cheems|Xeon`)   
-              if (!text1) return m.reply(`Example! : ${order + ' ' + `Cheems|Xeon`}`)    
-              if (!text2) return m.reply(`Example! : ${order + ' ' + `Cheems|Xeon`}`)
+              if (!text1) return m.reply(`Example! : ${order + ' ' + `ASWIN|SPARKY`}`)    
+              if (!text2) return m.reply(`Example! : ${order + ' ' + `ASWIN|SPARKY`}`)
                 XeonBotInc.sendMessage(from, { react: { text: "⏱️", key: m.key }})
           try{ 
              let buff = await XeonBotInc.downloadMediaMessage(m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage, 'sticker')
