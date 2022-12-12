@@ -217,14 +217,14 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = true
+		if (!('autobio' in setting)) setting.autobio = false
 		if (!('templateImage' in setting)) setting.templateImage = true
 		if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
 		if (!('templateMsg' in setting)) setting.templateMsg = false	
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: true,
+		autobio: false,
 		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
@@ -2511,7 +2511,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 n = anu.result
                 result = n[Math.floor(Math.random() * n.length)]
                 let jwbn = `*Name : ${result.nama}\n*Link : ${result.link}*`
-		let buttons = [{ buttonId: `gcsearch ${text}`, buttonText: { displayText: 'Next' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏donasi' }, type: 1 }]
+		let buttons = [{ buttonId: `gcsearch ${text}`, buttonText: { displayText: 'Next' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏 Donate' }, type: 1 }]
             await XeonBotInc.sendButtonText(m.chat, buttons, jwbn, botname, m, {quoted: fgclink})
             }
             break
@@ -5702,7 +5702,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER JAROT`,
+"text": `MY DEVELOPER SPARKY`,
 }
 }}), { userJid: m.chat, quoted: doc})
 XeonBotInc.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -5723,7 +5723,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER JAROT`,
+"text": `MY DEVELOPER SPARKY`,
 }
 }}), { userJid: m.chat, quoted: doc})
 XeonBotInc.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -5771,7 +5771,7 @@ throw `Thanks to
 ┏═┅〔 *SUPPORT* 〕┅═
 ┃⫹⫺ 𝚇𝚎𝚘𝚗
 ┃⫹⫺ Aswin Sparky
-┃⫹⫺ Bino Sparky
+┃⫹⫺ Andi_mr_lit
 ┗═┅〔 *Made By Sparky* 〕┅═`
 break
 case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
@@ -5808,7 +5808,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 ┆𝗧𝗶𝗺𝗲 : ${xtime}
 ┗─────────────────⬣`
       let ments = [ownernya, me, ini_mark]        
-            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '𝘚𝘦𝘮𝘶𝘢 𝘗𝘦𝘳𝘪𝘯𝘵𝘢𝘩' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: '𝘓𝘪𝘴𝘵 𝘔𝘦𝘯𝘶' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: '𝘚𝘰𝘶𝘳𝘤𝘦' }, type: 1 }]
+            let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: 'All Menu' }, type: 1 },{ buttonId: 'command', buttonText: { displayText: 'List Menu' }, type: 1 },{ buttonId: 'sc', buttonText: { displayText: 'Owner' }, type: 1 }]
             let buttonMessage = {
   document: fs.readFileSync('./Media/theme/cheems.xlsx'),
   fileName : `${groupMetadata.subject}`,
@@ -5997,7 +5997,7 @@ var unicorn = await getBuffer(picak+'All Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'Donasi'}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner'}, type: 1}
 ]
 const buttonMessage = {
@@ -6652,7 +6652,7 @@ break
 	   var unicorn = await getBuffer(picak+'Owner Menu')
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script '}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi'}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner'}, type: 1}
 ]
 const buttonMessage = {
@@ -6684,7 +6684,7 @@ var unicorn = await getBuffer(picak+'Group Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -6742,7 +6742,7 @@ var unicorn = await getBuffer(picak+'Maker Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -6868,7 +6868,7 @@ var unicorn = await getBuffer(picak+'Download Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -6895,7 +6895,7 @@ var unicorn = await getBuffer(picak+'Search Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -6934,7 +6934,7 @@ var unicorn = await getBuffer(picak+'Convert Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -6980,7 +6980,7 @@ var unicorn = await getBuffer(picak+'Random Image Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7010,7 +7010,7 @@ var unicorn = await getBuffer(picak+'Emote Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7041,7 +7041,7 @@ var unicorn = await getBuffer(picak+'Image Effect Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7064,7 +7064,7 @@ var unicorn = await getBuffer(picak+'Anime Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7141,7 +7141,7 @@ var unicorn = await getBuffer(picak+'Sticker Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7168,7 +7168,7 @@ var unicorn = await getBuffer(picak+'Anime Sticker Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7216,7 +7216,7 @@ var unicorn = await getBuffer(picak+'Nsfw Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7241,7 +7241,7 @@ var unicorn = await getBuffer(picak+'Fun Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7323,7 +7323,7 @@ var unicorn = await getBuffer(picak+'Sound Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7503,7 +7503,7 @@ var unicorn = await getBuffer(picak+'Game Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7529,7 +7529,7 @@ var unicorn = await getBuffer(picak+'Anonymous Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7552,7 +7552,7 @@ var unicorn = await getBuffer(picak+'Database Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner '}, type: 1}
 ]
 const buttonMessage = {
@@ -7579,7 +7579,7 @@ var unicorn = await getBuffer(picak+'Other Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script 🔖'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: 'donasi '}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: 'Donate '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: 'Owner'}, type: 1}
 ]
 const buttonMessage = {
