@@ -19,7 +19,7 @@ global.ownername = "ASWIN SPARKY" //ganti nama lu
 global.developer = "ASWIN" //nama lu
 global.ytname = "YT: SPARKY MON 777" //ur yt chanel name
 global.socialm = "https://www.instagram.com/aswin_sparky.exe" //taroh sosialmedia lu kalo ga punya biarin aja
-global.sgc = "github.com/Sparkymon777/SPARKY-BOT-MD" //ganti group lu
+global.sgc = "https://chat.whatsapp.com/JTUrdnOziKD44ScoBoggmh" //ganti group lu
 global.location = "Kerala,TVM,Varkala" //ganti lokasi lu
 
 //bot bomdy 
