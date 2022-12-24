@@ -28,17 +28,17 @@ global.ownernomer = "201227179105" //ur number
 global.ownertag = '201227179105' //ur tag number
 global.premium = ['201227179105'] //ur premium number
 global.botname = 'AL SOLTAN MD+' //ur bot name
-global.ownername = "ASWIN SPARKY"
+global.ownername = "YoUsSef Al SoLtAn"
 global.linkz = "https://youtube.com/@YOUSSEF-ALSOLTN" //your theme url which will be displayed on whatsapp
 global.dana = "201227179105"
 global.pulsa = "201227179105"
 global.websitex = "https://youtube.com/@YOUSSEF-ALSOLTN" //ur website to be displayed
 global.websitex1 = "https://sparkymodswa.blogspot.com"
-global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN' //script link
+global.botscript = 'https://youtube.com/@YOUSSEF-ALSOLTN" //script link
 global.themeemoji = "👀" //ur theme emoji
 global.packname = "YoUsSef Al SoLtAn" //ur sticker watermark packname
-global.author = "ASWIN" //ur sticker watermark author
-global.wm = "S P A R K Y" //ur watermark
+global.author = "YoUsSef Al SoLtAn" //ur sticker watermark author
+global.wm = "YoUsSef Al SoLtAn|@201227179105" //ur watermark
 
 // Other
 global.sessionName = 'session'
